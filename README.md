@@ -606,3 +606,23 @@ La función recibirá 3 enteros, devolver un entero.
         ?>
     </body>
 </html>
+   <?php
+        echo("EJERCICIO15");
+        function  matriz($input){
+       $tamaño=count($input) ;
+       for($k=0;$k<1;$k++) {
+           $indice{$k}=$input{$k};
+           $suma=$suma+$input{$k};
+       }
+        for($k=2;$k<4;$k++) {
+           $indice1{$k}=$input{$k};
+            $suma1=$suma1+$input{$k};
+       }
+        for($k=0;$k<7;$k++) {
+           $indice2{$k}=$input{$k};
+            $suma2=$suma2+$input{$k};
+       }
+        }
+        $suma3= $indice2{0};
+        matriz(array (4, -3, 7, 2, 4, -5, 1, 2));
+        ?>
